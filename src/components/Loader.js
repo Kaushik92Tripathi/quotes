@@ -1,6 +1,7 @@
 // File: src/components/Loader.js
 import { useLoading } from '../contexts/LoadingContext';
 
+
 export default function Loader() {
   const { isLoading } = useLoading();
   
